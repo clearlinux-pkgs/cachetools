@@ -4,7 +4,7 @@
 #
 Name     : cachetools
 Version  : 1.1.6
-Release  : 10
+Release  : 11
 URL      : https://pypi.python.org/packages/source/c/cachetools/cachetools-1.1.6.tar.gz
 Source0  : https://pypi.python.org/packages/source/c/cachetools/cachetools-1.1.6.tar.gz
 Summary  : Extensible memoizing collections and decorators
