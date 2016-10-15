@@ -1,5 +1,5 @@
 PKG_NAME := cachetools
-URL := https://pypi.python.org/packages/source/c/cachetools/cachetools-1.1.6.tar.gz
+URL := http://pypi.debian.net/cachetools/cachetools-2.0.0.tar.gz
 ARCHIVES :=
 
 include ../common/Makefile.common
