@@ -4,7 +4,7 @@
 #
 Name     : cachetools
 Version  : 2.0.0
-Release  : 15
+Release  : 16
 URL      : https://pypi.python.org/packages/dc/64/16cbf95e0ac473503c5dcd61aefbbab9f12e1875f40a0aaff566a1236ac4/cachetools-2.0.0.tar.gz
 Source0  : https://pypi.python.org/packages/dc/64/16cbf95e0ac473503c5dcd61aefbbab9f12e1875f40a0aaff566a1236ac4/cachetools-2.0.0.tar.gz
 Summary  : Extensible memoizing collections and decorators
