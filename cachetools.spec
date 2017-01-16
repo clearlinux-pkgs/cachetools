@@ -4,9 +4,9 @@
 #
 Name     : cachetools
 Version  : 2.0.0
-Release  : 16
-URL      : https://pypi.python.org/packages/dc/64/16cbf95e0ac473503c5dcd61aefbbab9f12e1875f40a0aaff566a1236ac4/cachetools-2.0.0.tar.gz
-Source0  : https://pypi.python.org/packages/dc/64/16cbf95e0ac473503c5dcd61aefbbab9f12e1875f40a0aaff566a1236ac4/cachetools-2.0.0.tar.gz
+Release  : 17
+URL      : http://pypi.debian.net/cachetools/cachetools-2.0.0.tar.gz
+Source0  : http://pypi.debian.net/cachetools/cachetools-2.0.0.tar.gz
 Summary  : Extensible memoizing collections and decorators
 Group    : Development/Tools
 License  : MIT
@@ -39,13 +39,15 @@ python components for the cachetools package.
 
 %build
 export LANG=C
+export SOURCE_DATE_EPOCH=1484535587
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
 %install
+export SOURCE_DATE_EPOCH=1484535587
 rm -rf %{buildroot}
-python2 -tt setup.py build -b py2 install --root=%{buildroot}
-python3 -tt setup.py build -b py3 install --root=%{buildroot}
+python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
+python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
 
 %files
 %defattr(-,root,root,-)
