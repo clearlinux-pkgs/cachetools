@@ -4,7 +4,7 @@
 #
 Name     : cachetools
 Version  : 2.0.0
-Release  : 17
+Release  : 18
 URL      : http://pypi.debian.net/cachetools/cachetools-2.0.0.tar.gz
 Source0  : http://pypi.debian.net/cachetools/cachetools-2.0.0.tar.gz
 Summary  : Extensible memoizing collections and decorators
