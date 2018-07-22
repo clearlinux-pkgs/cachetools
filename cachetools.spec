@@ -4,7 +4,7 @@
 #
 Name     : cachetools
 Version  : 2.1.0
-Release  : 26
+Release  : 27
 URL      : http://pypi.debian.net/cachetools/cachetools-2.1.0.tar.gz
 Source0  : http://pypi.debian.net/cachetools/cachetools-2.1.0.tar.gz
 Summary  : Extensible memoizing collections and decorators
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1532268754
+export SOURCE_DATE_EPOCH=1532292669
 python3 setup.py build -b py3
 
 %install
