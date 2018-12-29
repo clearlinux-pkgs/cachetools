@@ -4,7 +4,7 @@
 #
 Name     : cachetools
 Version  : 3.0.0
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/e6/28/7cde8e73835ff48b4f35b2d93a509575f7bc02b7d614ada71b820c8d9233/cachetools-3.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e6/28/7cde8e73835ff48b4f35b2d93a509575f7bc02b7d614ada71b820c8d9233/cachetools-3.0.0.tar.gz
 Summary  : Extensible memoizing collections and decorators
