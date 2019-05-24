@@ -1,5 +1,5 @@
 PKG_NAME := cachetools
-URL = https://files.pythonhosted.org/packages/05/07/c117b9527a0cd5beb7990fcdb7b0abf57e84f2d82eaf130921b43e594df4/cachetools-3.1.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ae/37/7fd45996b19200e0cb2027a0b6bef4636951c4ea111bfad36c71287247f6/cachetools-3.1.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
