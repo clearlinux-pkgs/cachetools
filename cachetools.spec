@@ -4,7 +4,7 @@
 #
 Name     : cachetools
 Version  : 4.2.0
-Release  : 42
+Release  : 43
 URL      : https://files.pythonhosted.org/packages/49/c9/5791269161be47eacca42ffa0a87e0a4a1007b6dfbec0400ae36d43c08f7/cachetools-4.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/49/c9/5791269161be47eacca42ffa0a87e0a4a1007b6dfbec0400ae36d43c08f7/cachetools-4.2.0.tar.gz
 Summary  : Extensible memoizing collections and decorators
